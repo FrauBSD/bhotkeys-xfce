@@ -1,0 +1,13 @@
+id xfce-apps
+group x11/bhotkeys-xfce
+label Applications menu
+chord Alt+F1
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open the applications menu. XFCE owns the key.
+# xfconf /commands/custom/<Alt>F1 xfce4-popup-applicationsmenu

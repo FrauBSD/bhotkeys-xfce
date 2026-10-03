@@ -1,0 +1,13 @@
+id xfce-terminal
+group x11/bhotkeys-xfce
+label Terminal
+chord Ctrl+Alt+t
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open a terminal. XFCE owns the key.
+# xfconf /commands/custom/<Primary><Alt>t exo-open --launch TerminalEmulator

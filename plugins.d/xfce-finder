@@ -1,0 +1,13 @@
+id xfce-finder
+group x11/bhotkeys-xfce
+label Application finder
+chord Alt+F2
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open the application finder. XFCE owns the key.
+# xfconf /commands/custom/<Alt>F2 xfce4-appfinder --collapsed

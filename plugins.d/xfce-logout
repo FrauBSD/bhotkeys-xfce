@@ -1,0 +1,13 @@
+id xfce-logout
+group x11/bhotkeys-xfce
+label Log out
+chord Ctrl+Alt+Delete
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open the log out dialog. XFCE owns the key.
+# xfconf /commands/custom/<Primary><Alt>Delete xfce4-session-logout

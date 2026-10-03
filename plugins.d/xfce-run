@@ -1,0 +1,13 @@
+id xfce-run
+group x11/bhotkeys-xfce
+label Run command
+chord Super+r
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open the run dialog. XFCE owns the key.
+# xfconf /commands/custom/<Super>r xfce4-appfinder -c

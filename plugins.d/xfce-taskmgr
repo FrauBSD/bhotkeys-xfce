@@ -1,0 +1,13 @@
+id xfce-taskmgr
+group x11/bhotkeys-xfce
+label Task manager
+chord Ctrl+Shift+Escape
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Open the task manager. XFCE owns the key.
+# xfconf /commands/custom/<Primary><Shift>Escape xfce4-taskmanager

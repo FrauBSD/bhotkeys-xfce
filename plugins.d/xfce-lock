@@ -1,0 +1,13 @@
+id xfce-lock
+group x11/bhotkeys-xfce
+label Lock screen
+chord Ctrl+Alt+l
+enabled 0
+enabled 1 xfce
+session 0
+session 1 xfce
+repeat 0
+greeter 0
+listen 0
+desc Lock the screen. XFCE owns the key.
+# xfconf /commands/custom/<Primary><Alt>l xflock4
